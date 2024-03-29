@@ -17,7 +17,7 @@ const login = (data: LoginRequest): ResultAsync<AxiosResponse<LoginResponse>, an
         _skipAuthHeaders: true,
         _skipRetry: true
     };
-    return ResultAsync.fromPromise(axios.post<LoginResponse>('http://13.234.239.70:3000/v1/auth/login', data, config), (err: any)=>{
+    return ResultAsync.fromPromise(axios.post<LoginResponse>('http://3.111.218.67:3000/v1/auth/login', data, config), (err: any)=>{
         return err as any
     })
 }

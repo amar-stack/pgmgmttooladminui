@@ -5,7 +5,7 @@ import axios from 'axios';
 
 export const useSampleClients = () => {
   const AuthStr = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWQ3MzU2MDUyYTcyZTY1NmU1NjdhMDciLCJpYXQiOjE3MDkxMzY4MTcsImV4cCI6MTcwOTEzODYxNywidHlwZSI6ImFjY2VzcyJ9.ENvVh9cgMjvuNKHBfAM-kIuWl-Pa3bhN1FBnIxVUjcI'; 
-  axios.get("http://13.234.239.70:3000/v1/users")
+  axios.get("http://3.111.218.67:3000/v1/users")
   .then(response => {
       // If request is good...
       return {

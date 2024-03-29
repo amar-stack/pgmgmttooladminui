@@ -19,7 +19,7 @@ const TableSampleClients = () => {
   const [clients, setClients] = useState([])
   useEffect(() => {
     // const AuthStr = `Bearer ${accesstoken}`;
-    axios.get('http://13.234.239.70:3000/v1/users').then((response) => {
+    axios.get('http://3.111.218.67:3000/v1/users').then((response) => {
       // If request is good...
       // return {
       console.log(response?.data?.results)
@@ -55,7 +55,7 @@ const TableSampleClients = () => {
   }
 
   const generateLinks = (clientId) => {
-    const link = `http://13.234.239.70:5000/dashboard/uploadDocs/${clientId.id}`
+    const link = `http://3.111.218.67:5000/dashboard/uploadDocs/${clientId.id}`
     setLink(link)
   }
 

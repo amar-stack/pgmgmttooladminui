@@ -1,2 +1,2 @@
 admin apnel
-http://13.234.239.70:5000/dashboard - dashboard
+http://3.111.218.67:5000/dashboard - dashboard
