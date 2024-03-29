@@ -31,7 +31,7 @@ const LoginPage = () => {
   const {isAuthenticated} = useAppSelector((state) => state.auth)
 
   const handleSubmit = (formValues: LoginForm) => {
-    // axios.post("http://43.204.30.219:3000/v1/auth/login", {
+    // axios.post("http://13.234.239.70:3000/v1/auth/login", {
     //   email: formValues.email,
     //   password: formValues.password
     //   // add more data if needed

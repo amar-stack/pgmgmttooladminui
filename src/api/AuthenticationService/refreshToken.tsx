@@ -44,7 +44,7 @@ class RefreshTokenSingleton {
             _skipAuthHeaders: true,
             _skipTransId: true
         };
-        return axios.post('http://43.204.30.219:3000/v1/auth/refresh-tokens', {refreshToken: refreshToken}, config);
+        return axios.post('http://13.234.239.70:3000/v1/auth/refresh-tokens', {refreshToken: refreshToken}, config);
     }
 
 }
